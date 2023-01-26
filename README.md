@@ -8,10 +8,10 @@ There is only 5 request in this API,
 4. update Request (POST) : This request is for update the details of product , you need to send categoryId with request for searching particular product in database.
 5. delete Request (POST) : This is for delete a particular product, you need to send categoryId with request for searching particular product in database and delete it.
 
+NOTE : Before the testing the API you need to start the server. Download the code and and run "npm i" commend for install all the dependencies and after when all dependencies is insalled , run "npm start" command to start the server.
+
 Here is link of Postman documentation :- 
 https://red-rocket-174114.postman.co/workspace/6ef508ba-fa0b-4cab-af39-479993c6b259/collection/25134167-8fe53a7e-bd8b-4793-af10-b3cdafc9ad46?action=share&creator=25134167
-
-if you need to run this api in your system then simply download the code and and run "npm i" commend for install all the dependencies and after when all dependencies is insalled , run "npm start" command to start the server.
 
 currently, my MongoDB Cluster is connected with this but if you want to change the cluter , then go to config.env file and change "DATABASE= MY_LINK" to "DATABASE= YOUR_LINK". 
 
